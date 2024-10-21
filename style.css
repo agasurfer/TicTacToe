@@ -14,10 +14,7 @@
 body {
   margin: 0 auto;
   display: flex;
-  height: 100vh;
-  min-height: 800px; 
-  min-width: 410px;
-  max-width: 610px; 
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -40,9 +37,10 @@ body {
 }
 
 @keyframes mymove {
-  40% {box-shadow: var(--box-shadow-color)}
+  40% {
+    box-shadow: var(--box-shadow-color);
+  }
 }
-
 /* .board.clickedX {
    box-shadow:  rgb(211, 176, 71) 0px 10px 12px, rgb(227, 194, 95) 0px 10px 5px;
 
